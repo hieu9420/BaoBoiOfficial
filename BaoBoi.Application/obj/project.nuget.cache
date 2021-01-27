@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R+4XF+6MXV/o4qFVfuTfOfkh1oj5OvEsbWBVpIDISZ3Ro3J7jexkHz0iQRMglyB5JI3kFvURY+2oJUaO/0ubqw==",
+  "dgSpecHash": "tdseKYn4vfVOjZbKI/2UTqvFf8s82be2bUjH5pu/vUf0hkfNk42sgphRRwz55AkxkfmRbecmgD2W20TIi7lR1A==",
   "success": true,
-  "projectFilePath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj",
+  "projectFilePath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
