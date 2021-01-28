@@ -53,11 +53,16 @@ namespace BaoBoi.Application.Interface
 
         public async Task<int> Update(PhoneUserViewModel model)
         {
-            var phoneUser = _context.PhoneUsers.FindAsync(model.Phone);
+            PhoneUser phoneUser = await _context.PhoneUsers.FindAsync(model.Phone);
             if (phoneUser == null)
             {
                 throw new BaoBoiException($"Can not Found Phone: {model.Phone}");
             }
+            phoneUser.Name = model.Name;
+            phoneUser.Amount = model.Amount;
+            phoneUser.Pay = model.Pay;
+            phoneUser.Type = model.Type;
+            _context.PhoneUsers.Update(phoneUser);
             return await _context.SaveChangesAsync();
         }
     }
