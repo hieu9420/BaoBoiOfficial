@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.WebApp\\BaoBoi.WebApp.csproj": {}
+    "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj": {}
   },
   "projects": {
-    "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.WebApp\\BaoBoi.WebApp.csproj": {
+    "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.WebApp\\BaoBoi.WebApp.csproj",
-        "projectName": "BaoBoi.WebApp",
-        "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.WebApp\\BaoBoi.WebApp.csproj",
+        "projectUniqueName": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj",
+        "projectName": "BaoBoi.Utilities",
+        "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj",
         "packagesPath": "C:\\Users\\HNPC\\.nuget\\packages\\",
-        "outputPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.WebApp\\obj\\",
+        "outputPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HNPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,20 +39,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
-              "target": "Package",
-              "version": "[3.1.10, )"
-            },
-            "SweetAlert": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "jQuery": {
-              "target": "Package",
-              "version": "[3.5.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -64,9 +50,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

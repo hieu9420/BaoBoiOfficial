@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BaoBoi.Data\BaoBoi.Data.csproj" />
+    <ProjectReference Include="..\BaoBoi.Utilities\BaoBoi.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

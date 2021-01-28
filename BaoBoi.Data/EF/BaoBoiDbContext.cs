@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BaoBoi.Data.EF
 {
-    class BaoBoiDbContext : DbContext
+    public class BaoBoiDbContext : DbContext
     {
         public BaoBoiDbContext(DbContextOptions options) : base(options)
         {

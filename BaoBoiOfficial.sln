@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{7100D163
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaoBoi.Utilities", "BaoBoi.Utilities\BaoBoi.Utilities.csproj", "{9EE1F65C-C312-4E52-8D33-5EA80FA1E69A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B6535975-66C0-4FCD-A011-2B7D4D12D7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6535975-66C0-4FCD-A011-2B7D4D12D7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6535975-66C0-4FCD-A011-2B7D4D12D7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE1F65C-C312-4E52-8D33-5EA80FA1E69A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE1F65C-C312-4E52-8D33-5EA80FA1E69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE1F65C-C312-4E52-8D33-5EA80FA1E69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE1F65C-C312-4E52-8D33-5EA80FA1E69A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
