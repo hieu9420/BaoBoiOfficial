@@ -709,19 +709,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HNPC\\.nuget\\packages\\": {}
+    "C:\\Users\\windy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.WebApp\\BaoBoi.WebApp.csproj",
+      "projectUniqueName": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.WebApp\\BaoBoi.WebApp.csproj",
       "projectName": "BaoBoi.WebApp",
-      "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.WebApp\\BaoBoi.WebApp.csproj",
-      "packagesPath": "C:\\Users\\HNPC\\.nuget\\packages\\",
-      "outputPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.WebApp\\obj\\",
+      "projectPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.WebApp\\BaoBoi.WebApp.csproj",
+      "packagesPath": "C:\\Users\\windy\\.nuget\\packages\\",
+      "outputPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HNPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\windy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -778,7 +778,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

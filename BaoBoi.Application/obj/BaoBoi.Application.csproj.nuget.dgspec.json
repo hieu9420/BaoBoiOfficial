@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj": {}
+    "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj": {}
   },
   "projects": {
-    "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj": {
+    "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj",
+        "projectUniqueName": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj",
         "projectName": "BaoBoi.Application",
-        "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj",
-        "packagesPath": "C:\\Users\\HNPC\\.nuget\\packages\\",
-        "outputPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Application\\obj\\",
+        "projectPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Application\\BaoBoi.Application.csproj",
+        "packagesPath": "C:\\Users\\windy\\.nuget\\packages\\",
+        "outputPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HNPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\windy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj": {
-                "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj"
+              "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj": {
+                "projectPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj"
               },
-              "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj": {
-                "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj"
+              "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj": {
+                "projectPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj"
               }
             }
           }
@@ -61,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj": {
+    "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj",
+        "projectUniqueName": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj",
         "projectName": "BaoBoi.Data",
-        "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj",
-        "packagesPath": "C:\\Users\\HNPC\\.nuget\\packages\\",
-        "outputPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Data\\obj\\",
+        "projectPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Data\\BaoBoi.Data.csproj",
+        "packagesPath": "C:\\Users\\windy\\.nuget\\packages\\",
+        "outputPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HNPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\windy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -149,21 +149,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj": {
+    "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj",
+        "projectUniqueName": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj",
         "projectName": "BaoBoi.Utilities",
-        "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj",
-        "packagesPath": "C:\\Users\\HNPC\\.nuget\\packages\\",
-        "outputPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\obj\\",
+        "projectPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj",
+        "packagesPath": "C:\\Users\\windy\\.nuget\\packages\\",
+        "outputPath": "E:\\Netcore3.1\\BaoBoiOfficial\\BaoBoi.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HNPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\windy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -203,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
