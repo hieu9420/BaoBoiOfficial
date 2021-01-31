@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using BaoBoi.Data.SeedData;
 
 namespace BaoBoi.Data.EF
 {
@@ -18,6 +19,10 @@ namespace BaoBoi.Data.EF
             modelBuilder.ApplyConfiguration(new LoiChucConfiguration());
             modelBuilder.ApplyConfiguration(new PhoneUserConfiguration());
             //base.OnModelCreating(modelBuilder);
+
+            //Seed Data
+
+            modelBuilder.Seed();
         }
 
         public DbSet<PhoneUser> PhoneUsers { get; set; }

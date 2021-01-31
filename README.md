@@ -7,3 +7,8 @@
 - Microsoft.Extensions.Configuration 
 - Microsoft.Extensions.Configuration.FileExtension
 - Microsoft.Extensions.Configuration.Json
+
+#database
+- Add-Migration Initial
+
+- update-database

@@ -12,5 +12,7 @@ namespace BaoBoi.Data.Entities
         public int? Type { get; set; }
         //0: ban be; 1: dong nghiep; 2: xep, 3: thay co,  4: gia dinh, 5: nguoi yeu
         public bool Pay { get; set; }
+        public DateTime? DatePlay { get; set; }
+        public DateTime? DatePay { get; set; }
     }
 }

@@ -1,0 +1,12 @@
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\bin\Debug\netcoreapp3.1\BaoBoi.Data.deps.json
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\bin\Debug\netcoreapp3.1\BaoBoi.Data.runtimeconfig.json
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\bin\Debug\netcoreapp3.1\BaoBoi.Data.runtimeconfig.dev.json
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\bin\Debug\netcoreapp3.1\BaoBoi.Data.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\bin\Debug\netcoreapp3.1\BaoBoi.Data.pdb
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\obj\Debug\netcoreapp3.1\BaoBoi.Data.csprojAssemblyReference.cache
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\obj\Debug\netcoreapp3.1\BaoBoi.Data.AssemblyInfoInputs.cache
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\obj\Debug\netcoreapp3.1\BaoBoi.Data.AssemblyInfo.cs
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\obj\Debug\netcoreapp3.1\BaoBoi.Data.csproj.CoreCompileInputs.cache
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\obj\Debug\netcoreapp3.1\BaoBoi.Data.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\obj\Debug\netcoreapp3.1\BaoBoi.Data.pdb
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Data\obj\Debug\netcoreapp3.1\BaoBoi.Data.genruntimeconfig.cache

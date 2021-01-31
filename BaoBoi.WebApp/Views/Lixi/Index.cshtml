@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Lì Xì Tết";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@section Styles{
+    <link href="~/css/LiXiTet/Lixi.css" rel="stylesheet" />
+    <link href="~/css/LiXiTet/PhaoHoa.css" rel="stylesheet" />
+}
+<div class="li-xi-area">
+    <div class="li-xi-content">
+        <div class="li-xi-title">
+            @ViewBag.lixiTitle
+        </div>
+        <div class="li-xi-body">
+            <div class="grid-lixi">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="phone-user unShow">
+    <div class="bg-over"></div>
+    <div class="phone-area">
+        <div class="phone-title">
+            Nhập Số Điện Thoại để Bắt Đầu!
+        </div>
+        <div class="phone-content">
+            <input type="text" placeholder="Số Điện Thoại" class="input-phone" maxlength="14" />
+        </div>
+        <div class="phone-ft">
+            <div class="btn-phone-xoa">Xóa</div>
+            <div class="btn-phone-oke">Đồng Ý</div>
+        </div>
+    </div>
+</div>
+<div class="message unShow">
+    <div class="mess-area">
+        <div class="message-title"></div>
+        <div class="message-content"></div>
+        <div class="message-ft">
+            <div class="btn-mess-ok">Đồng Ý</div>
+        </div>
+    </div>
+</div>
+<input hidden type="hidden" class="key" value="@ViewBag.Key" />
+<canvas id="canvas"></canvas>
+
+@section Scripts{
+    <script src="~/js/LiXiTet/PhaoHoa.js"></script>
+    <script src="~/js/LiXiTet/LiXi.js"></script>
+}

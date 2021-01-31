@@ -11,4 +11,9 @@
     <PackageReference Include="SweetAlert" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BaoBoi.Application\BaoBoi.Application.csproj" />
+    <ProjectReference Include="..\BaoBoi.Utilities\BaoBoi.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

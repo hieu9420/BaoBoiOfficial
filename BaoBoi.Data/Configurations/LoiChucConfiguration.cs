@@ -13,7 +13,13 @@ namespace BaoBoi.Data.Configurations
         {
             builder.ToTable("LoiChuc");
 
-            builder.Property(x => x.Cauchuc).IsRequired(true);
+            builder.HasKey(x => x.ID);
+
+            builder.Property(x => x.ID).HasColumnName("ID");
+
+            builder.Property(x => x.CauChuc).IsRequired(true).HasColumnName("CauChuc");
+
+            builder.Property(x => x.Type).HasColumnName("Type");
         }
     }
 }
