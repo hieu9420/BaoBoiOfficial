@@ -369,3 +369,7 @@ D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.pdb
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.genruntimeconfig.cache
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

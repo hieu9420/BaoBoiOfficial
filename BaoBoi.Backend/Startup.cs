@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,15 +28,20 @@ namespace BaoBoi.Backend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+
 
             services.AddDbContext<BaoBoiDbContext>(
-                options => options.UseSqlServer(SystemConstants.MainConnectstring));
+                options => options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectstring)));
 
             //Declare DI
             services.AddTransient<LoiChucService, LoiChucService>();
 
             services.AddControllersWithViews();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger Bao Boi Official", Version = "V1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +58,13 @@ namespace BaoBoi.Backend
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Bao Boi Official API V1");
+            });
+
             app.UseStaticFiles();
 
             app.UseRouting();

@@ -17,13 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution Items", "0. Sol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaoBoi.Utilities", "BaoBoi.Utilities\BaoBoi.Utilities.csproj", "{9EE1F65C-C312-4E52-8D33-5EA80FA1E69A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaoBoi.BackendApi", "BaoBoi.Backend\BaoBoi.BackendApi.csproj", "{BBC7EBF2-6D3F-450E-844E-9DB4BF6B4A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaoBoi.BackendApi", "BaoBoi.Backend\BaoBoi.BackendApi.csproj", "{BBC7EBF2-6D3F-450E-844E-9DB4BF6B4A19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Infrastructure", "1.Infrastructure", "{80EE9C27-25C7-4B9A-906D-A436308B4944}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Doman", "2.Doman", "{8CE1D607-694C-41BC-A4C4-D0944BFC51FD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{45658D16-0BB6-4911-89AA-8475D80FB0AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaoBoi.AdminApp", "BaoBoi.AdminApp\BaoBoi.AdminApp.csproj", "{36A299E5-88FE-43AF-BC82-52482A354831}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{BBC7EBF2-6D3F-450E-844E-9DB4BF6B4A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBC7EBF2-6D3F-450E-844E-9DB4BF6B4A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC7EBF2-6D3F-450E-844E-9DB4BF6B4A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A299E5-88FE-43AF-BC82-52482A354831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A299E5-88FE-43AF-BC82-52482A354831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A299E5-88FE-43AF-BC82-52482A354831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A299E5-88FE-43AF-BC82-52482A354831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{B6535975-66C0-4FCD-A011-2B7D4D12D7D5} = {8CE1D607-694C-41BC-A4C4-D0944BFC51FD}
 		{9EE1F65C-C312-4E52-8D33-5EA80FA1E69A} = {80EE9C27-25C7-4B9A-906D-A436308B4944}
 		{BBC7EBF2-6D3F-450E-844E-9DB4BF6B4A19} = {45658D16-0BB6-4911-89AA-8475D80FB0AE}
+		{36A299E5-88FE-43AF-BC82-52482A354831} = {45658D16-0BB6-4911-89AA-8475D80FB0AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4944F1D-DE2A-4E06-9A3E-6F20AA0FA148}
