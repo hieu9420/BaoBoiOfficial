@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BaoBoi.Utilities.Constants;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -17,7 +18,7 @@ namespace BaoBoi.Data.EF
                 .AddJsonFile("appsettings.json")
                 .Build();
 
-            var connectString = configuration.GetConnectionString("BaoBoiDb");
+            var connectString = configuration.GetConnectionString(SystemConstants.MainConnectstring);
 
             var optionsBuilder = new DbContextOptionsBuilder<BaoBoiDbContext>();
             optionsBuilder.UseSqlServer(connectString);

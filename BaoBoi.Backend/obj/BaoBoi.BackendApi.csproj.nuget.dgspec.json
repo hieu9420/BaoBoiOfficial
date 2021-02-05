@@ -46,6 +46,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -111,6 +121,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.1.11, )"
@@ -165,7 +179,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj": {
+                "projectPath": "D:\\NetCore Project\\BaoBoiOfficial\\BaoBoi.Utilities\\BaoBoi.Utilities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -178,6 +196,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -209,6 +231,10 @@
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [

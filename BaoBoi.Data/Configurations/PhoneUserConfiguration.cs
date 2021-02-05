@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BaoBoi.Data.Configurations
 {
-    class PhoneUserConfiguration : IEntityTypeConfiguration<PhoneUser>
+    public class PhoneUserConfiguration : IEntityTypeConfiguration<PhoneUser>
     {
         public void Configure(EntityTypeBuilder<PhoneUser> builder)
         {

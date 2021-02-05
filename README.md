@@ -12,3 +12,6 @@
 - Add-Migration Initial
 
 - update-database
+
+#application 
+- Microsoft.AspNetCore.Identity

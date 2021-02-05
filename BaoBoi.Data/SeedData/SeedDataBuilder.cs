@@ -1,4 +1,5 @@
 ﻿using BaoBoi.Data.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,13 @@ namespace BaoBoi.Data.SeedData
     { 
         public static void Seed(this ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<AppConfig>().HasData(
+               new AppConfig() { Key = "HomeTitle", Value = "This is home page of Bao Boi Official" },
+               new AppConfig() { Key = "HomeKeyword", Value = "This is keyword of Bao Boi Official" },
+               new AppConfig() { Key = "HomeDescription", Value = "This is description of Bao Boi Official" }
+               );
+
+            #region LoiChuc seed data
             modelBuilder.Entity<LoiChuc>().HasData(
                 new LoiChuc() { ID=1, CauChuc= "Mừng 2021 phát tài phát lộc. Tiền vô xồng xộc, tiền ra từ từ. " +
                 "Sức khỏe có dư, công danh tấn tới. Tình duyên phơi phới,hạnh phúc thăng hoa.Xin chúc mọi nhà một năm đại thắng.", Type=0},
@@ -27,7 +35,9 @@ namespace BaoBoi.Data.SeedData
                 new LoiChuc() { ID = 10, CauChuc = "Wishing you all the magic of the new year", Type = 0 },
                 new LoiChuc() { ID = 11, CauChuc = "Let your spirit soar and have a joy-filled new year", Type = 0 }
                 );
+            #endregion
 
+            #region PhoneUser seed data
             modelBuilder.Entity<PhoneUser>().HasData(
                 new PhoneUser() { Phone="0967738406", Name="Admin", Amount=0.00, Type=5, Pay=false, DatePlay=null, DatePay = null },
                 new PhoneUser() { Phone= "0903754094", Name= "Anh Bình CIMB", Amount=0.00, Type=2, Pay=false, DatePlay=null, DatePay = null },
@@ -74,6 +84,7 @@ namespace BaoBoi.Data.SeedData
                 new PhoneUser() { Phone= "0386884721", Name= "Duyên", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null },
                 new PhoneUser() { Phone= "0358050165", Name= "Duyên", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null },
                 new PhoneUser() { Phone= "0373514988", Name= "Gấm", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null },
+                new PhoneUser() { Phone= "0344087516", Name= "Hà Trang", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null },
                 new PhoneUser() { Phone= "0378015202", Name= "Hí", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null },
                 new PhoneUser() { Phone= "0327141466", Name= "Hí", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null },
                 new PhoneUser() { Phone= "0337253858", Name= "Hí", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null },
@@ -149,6 +160,43 @@ namespace BaoBoi.Data.SeedData
                 new PhoneUser() { Phone= "0388991387", Name= "Yến", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null },
                 new PhoneUser() { Phone= "60123836370", Name= "Yew Khai Shing", Amount=0.00, Type=0, Pay=false, DatePlay=null, DatePay = null }
                 );
+
+            #endregion
+
+            modelBuilder.Entity<Language>().HasData(
+                new Language() { Id = "vi", Name = "Tiếng Việt", IsDefault = true },
+                new Language() { Id = "en", Name = "English", IsDefault = false });
+
+            #region User seed data
+            // any guid
+            var roleId = new Guid("8D04DCE2-969A-435D-BBA4-DF3F325983DC");
+            var adminId = new Guid("69BD714F-9576-45BA-B5B7-F00649BE00DE");
+
+            modelBuilder.Entity<AppRole>().HasData(new AppRole
+            {
+                Id = roleId,
+                Name = "admin",
+                NormalizedName = "admin",
+                Description = "Administrator role"
+            });
+            var hasher = new PasswordHasher<AppUser>();
+
+            modelBuilder.Entity<AppUser>().HasData(
+                new AppUser() {
+                    Id = adminId,
+                    UserName = "admin",
+                    NormalizedUserName = "admin",
+                    Email = "hieule.9420@gmail.com",
+                    NormalizedEmail = "hieule.9420@gmail.com",
+                    EmailConfirmed = true,
+                    PasswordHash = hasher.HashPassword(null, "1"),
+                    SecurityStamp = string.Empty,
+                    FirstName = "Le",
+                    LastName = "Hieu",
+                    Dob = new DateTime(1996, 05, 03)
+                }
+                );
+            #endregion
         }
     }
 }

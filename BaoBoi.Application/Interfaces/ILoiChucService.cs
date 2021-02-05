@@ -1,4 +1,4 @@
-﻿using BaoBoi.Application.Dtos;
+﻿using BaoBoi.Application.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BaoBoi.Application.Interfaces
 {
-    interface ILoiChucService
+    public interface ILoiChucService
     {
         Task<int> Create(LoiChucViewModel model);
         Task<int> Update(LoiChucViewModel model);

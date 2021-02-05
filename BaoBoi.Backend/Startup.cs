@@ -1,9 +1,11 @@
 using BaoBoi.Application.Interfaces;
 using BaoBoi.Data.EF;
+using BaoBoi.Data.Entities;
 using BaoBoi.Utilities.Constants;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -33,8 +35,14 @@ namespace BaoBoi.Backend
             services.AddDbContext<BaoBoiDbContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectstring)));
 
+            services.AddIdentity<AppUser, AppRole>()
+                .AddEntityFrameworkStores<BaoBoiDbContext>()
+                .AddDefaultTokenProviders();
             //Declare DI
             services.AddTransient<LoiChucService, LoiChucService>();
+            services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
+            services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
+            services.AddTransient<IUserService, IUserService>();
 
             services.AddControllersWithViews();
 

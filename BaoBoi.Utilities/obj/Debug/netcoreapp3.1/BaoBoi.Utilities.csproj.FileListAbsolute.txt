@@ -1,7 +1,6 @@
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Utilities\bin\Debug\netcoreapp3.1\BaoBoi.Utilities.deps.json
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Utilities\bin\Debug\netcoreapp3.1\BaoBoi.Utilities.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Utilities\bin\Debug\netcoreapp3.1\BaoBoi.Utilities.pdb
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Utilities\obj\Debug\netcoreapp3.1\BaoBoi.Utilities.csprojAssemblyReference.cache
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Utilities\obj\Debug\netcoreapp3.1\BaoBoi.Utilities.AssemblyInfoInputs.cache
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Utilities\obj\Debug\netcoreapp3.1\BaoBoi.Utilities.AssemblyInfo.cs
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Utilities\obj\Debug\netcoreapp3.1\BaoBoi.Utilities.csproj.CoreCompileInputs.cache

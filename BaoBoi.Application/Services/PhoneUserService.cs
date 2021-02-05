@@ -1,11 +1,11 @@
-﻿using BaoBoi.Application.Dtos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using BaoBoi.Data.EF;
 using System.Threading.Tasks;
 using BaoBoi.Data.Entities;
 using BaoBoi.Utilities.Exceptions;
+using BaoBoi.Application.ViewModel;
 
 namespace BaoBoi.Application.Interfaces
 {

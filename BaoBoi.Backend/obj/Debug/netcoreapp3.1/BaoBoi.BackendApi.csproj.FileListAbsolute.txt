@@ -1,3 +1,7 @@
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.AssemblyInfoInputs.cache
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.AssemblyInfo.cs
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.csproj.CoreCompileInputs.cache
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.MvcApplicationPartsAssemblyInfo.cache
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\appsettings.json
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\BaoBoi.BackendApi.exe
@@ -22,8 +26,6 @@ D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Mi
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -98,8 +100,6 @@ D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Mi
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
@@ -269,6 +269,9 @@ D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\Sy
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
@@ -292,6 +295,8 @@ D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microso
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
@@ -302,7 +307,11 @@ D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microso
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
@@ -356,11 +365,7 @@ D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\BaoBoi.
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\BaoBoi.Data.pdb
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\BaoBoi.Utilities.pdb
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.csprojAssemblyReference.cache
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.AssemblyInfoInputs.cache
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.AssemblyInfo.cs
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.csproj.CoreCompileInputs.cache
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.MvcApplicationPartsAssemblyInfo.cs
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.MvcApplicationPartsAssemblyInfo.cache
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\staticwebassets\BaoBoi.BackendApi.StaticWebAssets.Manifest.cache
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\staticwebassets\BaoBoi.BackendApi.StaticWebAssets.xml
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\scopedcss\bundle\BaoBoi.BackendApi.styles.css
@@ -369,7 +374,3 @@ D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.dll
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.pdb
 D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\obj\Debug\netcoreapp3.1\BaoBoi.BackendApi.genruntimeconfig.cache
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\NetCore Project\BaoBoiOfficial\BaoBoi.Backend\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

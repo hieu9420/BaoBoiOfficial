@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BaoBoi.Data.Configurations
 {
-    class LoiChucConfiguration : IEntityTypeConfiguration<LoiChuc>
+    public class LoiChucConfiguration : IEntityTypeConfiguration<LoiChuc>
     {
         public void Configure(EntityTypeBuilder<LoiChuc> builder)
         {
